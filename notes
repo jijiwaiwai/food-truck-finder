@@ -1,0 +1,15 @@
+A one- or two-paragraph write-up describing, at a high level, what you would do differently if you were asked to build this as a full-scale web application. In your write-up, please focus on the technical differences between the command-line program and the web application, rather than on the product differences.
+
+To convert this cli program to a full-scale web application, we need to do:
+
+1. Register a domain and set up a web server and install node.js as development environment
+2. Use express framework to create a server, handling the routes, connectting to a database and implement REST APIs
+3. Pick a js framework to build the client side application to call the services and visulize the data to customers
+2. Polyfill the code from ES6 to ES5 to support older browsers 
+3. Use webpack/gulp to bundle and minify the resources
+
+Web application is delivered to a local device over the Internet from a remote server(Software as a Service), it has  advantages over command-line program:
+1. Using a modern web browser can deliver more interactive, media-rich user interfaces
+2. The user can accesses the application using the web browser without having to install/update application
+3. The complex application service are delivered from romote servers so the clients don't need to wory about their machines'  storage and CPU processing power
+
